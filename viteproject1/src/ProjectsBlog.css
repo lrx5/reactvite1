@@ -1,0 +1,73 @@
+.container-template{
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    gap: 40px;
+}
+.project-card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.project-card div:first-child{
+    height: 300px;
+    overflow: hidden;
+}
+.project-card div:nth-child(2){
+    padding: 20px;
+    overflow: hidden;
+}
+.project-card img{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: transform 0.3s, filter 0.3s;
+}
+.project-card img:hover{
+    transform: scale(1.1);
+    filter: none;
+}
+.project-card h3, .project-card p{
+    text-decoration: none;
+    color:#ccc;
+}
+.mw700 {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.mw700 img{
+    width: 100%;
+}
+.pb h1, .pb h2, .pb h3, .pb p{
+    text-align: start;
+}
+.pb h1{
+    margin-bottom: 0;
+}
+.pb h3{
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+.pb span{
+    font-weight: 700;
+}
+.pb video{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
