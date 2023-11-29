@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage.tsx';
-import KarzhynWebsite from './KarzhynWebsite.tsx';
-import FriendsList from './FriendsList.tsx';
-import NoProject from './NoProject.tsx';
+import HomePage from './components/HomePage.tsx';
+import KarzhynWebsite from './components/KarzhynWebsite.tsx';
+import FriendsList from './components/FriendsList.tsx';
+import NoProject from './components/NoProject.tsx';
 import './index.css';
 import './Projects.css';
 import './ProjectsBlog.css';
