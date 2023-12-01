@@ -5,10 +5,10 @@ import '../Projects.css';
 function HomePage() {
 
   return (
-    <div>
+    <>
       <App />
       <Projects />
-    </div>
+    </>
   )
 }
 

@@ -7,10 +7,11 @@ function KarzhynWebsite() {
       <div className='mw700 pb'>
         <div>
           <h1>Karzhyn Website</h1>
-          <h3>Web Dev • Bootstrap • Vanilla • Blender • November 2023</h3>
+          <h3>Web Dev • Bootstrap • Blender • November 2023</h3>
           <p>
-          Welcome! 👋 I recently built a website to test my Bootstrap skills out. I was inspired to  make a company landing page after seeing the Illustration work of my good friend Jeron on Karzhyn branding. This personal project took around 2 weeks to code this company idea while exploring the features Bootstrap has to offer.
+          Welcome! 👋 I recently built a website to test my Bootstrap skills out. I was inspired to  make a company landing page after seeing the Illustration work of my good friend Jeron on Karzhyn branding. This personal project took around 2 weeks to code this company idea while exploring more of the features Bootstrap has to offer.
           </p>
+          <p><a href={"https://lrx5.github.io/karzhyn/main.html"} target='_blank'>Go to Website</a></p>
         </div>
         <div>
           <h2>Karzhyn Branding</h2>
@@ -31,16 +32,18 @@ function KarzhynWebsite() {
         </div>
         <div>
           <h2>3D Animations</h2>
-          <p>I 3D modeled the aluminum bottles that were included in Karzhyn and rendered a few static ones to use in the video.</p>
+          <p>I 3D modeled the aluminum bottles that were included in Karzhyn, set up a scene and rendered a few still images to use in the video.</p>
           <video autoPlay loop muted>
             <source src={'src/assets/karzhyn_v2.mp4'} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
-          <p>I also animated a total of four 3-second renders in Blender. Here is my favorite out of the four. 🤗</p>
+          <p>I also animated a total of four 3-second renders in Blender. The first video is composed of showcasing Karzhyn as a brand, introducing the potential creative works that the company's services provides. Here is my favorite out of the four. 🤗</p>
           <video autoPlay loop muted>
             <source src={'src/assets/karzhyn_v1.mp4'} type='video/mp4' />
             Your browser does not support the video tag.
           </video>
+          <p>Behind the scenes. It almost looks like a huge animation studio. 📽️ The animations for the main hero video was all done here in this single scene.</p>
+          <img src={`src/assets/karzhyn_31.png`} alt="" />
         </div>
         <div>
           <h2>Challenges</h2>
@@ -52,8 +55,8 @@ function KarzhynWebsite() {
           <img src={`src/assets/karzhyn_23.png`} alt="" />
         </div>
         <div>
-          <h2>Final Rating</h2>
-          <p>All in all, I give myself a "it's good enough ✔️" rating with a score of <span>6.5 out of 10.</span> Considering that this is my first major project in Bootstrap, I'd say I did pretty well. I am quite happy with the animations that I rendered, although the transitions could use some work, this is where I think that I should have each video connected in a certain way, like a color or velocity switch that they do in video editing. It took me some time to get the hang of Bootstrap, I was used to coding everything the Vanilla way. But in the end, I'd say I could recreate this whole website in less than a week rather than the original 2 weeks, provided that the designs and animations are done ofcourse.</p>
+          <h2>Final Thoughts</h2>
+          <p>All in all, I am quite satisfied with the final output. Considering that this is my first major project in Bootstrap, I'd say I did pretty well. I am quite happy with the animations that I rendered, although the transitions could use some work, this is where I think that I should have created a connection to each video in a certain way, like a color or same velocity/direction switch that they do in video editing. It took me some time to get the hang of Bootstrap, not gonna lie there was a point where I wished that I should have just coded it in Vanilla CSS. 😅</p>
         </div>
       </div>
     </div>
