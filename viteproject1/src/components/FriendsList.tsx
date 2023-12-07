@@ -8,12 +8,12 @@ function FriendsList() {
         <div>
           <h1>Friends List Website</h1>
           <h3>Web Dev • Vanilla HTML • September 2023</h3>
-          <p>Welcome back! 👋 I made a simple website featuring my relationship with my friends inspired by the Stardew valley heart meters.</p>
+          <p>Welcome back! 👋 I made a simple website featuring my relationships with my friends inspired by the Stardew valley heart meters.</p>
           <p><a href={"https://lrx5.github.io/friendslistVanilla/"} target='_blank'>Go to Website</a></p>
         </div>
         <div>
           <h2>Backstory</h2>
-          <p>My love for Stardew Valley has been reborn after my friend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
+          <p>My love for Stardew Valley has been reborn after my fsriend decided to play with me for a couple of days. <i>Well technically, I gifted the game and was kinda forced to play with me.</i> 😅 But anyways, I have played this game before, and can say that I am pretty experienced when it comes to farming and forging bonds with the villagers.</p>
           <img src={`src/assets/friendslist/friendslist_2.png`} alt="" />
         </div>
         <div>
@@ -26,7 +26,8 @@ function FriendsList() {
         </div>
         <div>
           <h2>List Column</h2>
-          <p>At the top of the list, there is a heart-ranking system that I thought up of, better have some hearts than nothing at all eh? Moving on to the list, basically the layout of this is just a single column containing all the hoverable friend cards. The color of the hearts gets animated once the selected card gets hovered, making it look - well, <i>cool</i>.</p>
+          <p>At the top of the list, there is a heart-ranking system that I thought up of, better have some hearts than nothing at all eh? Moving on to the list, it is a single-page layout containing all the hoverable friend cards. The color of the hearts gets animated once the selected card gets hovered, making it look - well, <i>cool</i>.</p>
+          <p>Here's an example card:</p>
         </div>
         <div className="flcard glass">
           <div className="flcard-content1">
@@ -59,7 +60,8 @@ function FriendsList() {
         </div>
         <div>
           <h2>Final Thoughts</h2>
-          <p>This is the first minor website that I have ever done. I already noticed some things to improve after deploying the final build. One is to add a search bar for the friends list, this is just to speed up the search for curious people. Two, is to make an admin account that has an add card functionality for easier addition of future friends, and an edit mode where you can update the values for the cards. Even though the website is simple as it is, I really hope my friends liked it. It's a good start for me in applying my new web development skills. Who knows, I might remaster this someday in the future, you'll just have to find out. 🤗</p>
+          <p>This is the first minor website that I have ever done. I already noticed some things to improve after deploying the final build. One is to add a search bar for the friends list, this is just to speed up the search for curious people. Two, is to make an admin account that has an add card functionality for easier addition of future friends, and an edit mode where you can update the values for the cards.</p>
+          <p>Even though the website is simple as it is, I really hope my friends liked it. It's a good start for me in applying my new web development skills. Who knows, I might remaster this someday in the future, you'll just have to find out. 🤗</p>
         </div>
       </div>
     </div>

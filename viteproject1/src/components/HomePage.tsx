@@ -1,4 +1,4 @@
-import App from './App';
+import Hero from './Hero';
 import Projects from './Projects';
 import '../Projects.css';
 
@@ -6,7 +6,7 @@ function HomePage() {
 
   return (
     <>
-      <App />
+      <Hero />
       <Projects />
     </>
   )

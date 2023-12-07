@@ -45,7 +45,7 @@ function KingTiger() {
           <p>The only thing that I would change in this scene is the black chimney on the bottom right. I feel like I could've put more attention and detail to the 3D model after finalizing the output. On the other side, everything else looks great. The photoscanned rubble looks great, the tank model and decals look amazing for my taste.</p>
         </div>
         <div>
-          <h2>Bonus</h2>
+          <h2>Bonus⭐</h2>
           <p>If you have made it this far, here I have a bonus animation content for you. I was originally going to make this project an animation, but I might have bitten more than I can chew 😅 and sticked to a single frame render.</p>
           <video autoPlay loop muted>
             <source src={'src/assets/kingtiger/kingtiger_bonus.mp4'} type='video/mp4' />

@@ -49,6 +49,10 @@ function MysteryWord() {
             Your browser does not support the video tag.
           </video>
         </div>
+        <div>
+          <h2>Final Thoughts</h2>
+          <p>In the end, the whole project is functional but unoptimized. This is me diving into Unity without a robust programming background. But what's important is I have learned a lot in the development of this game. Thank you for reading this rather long post, and goodluck to your future projects! 😁</p>
+        </div>
       </div>
     </div>
   )

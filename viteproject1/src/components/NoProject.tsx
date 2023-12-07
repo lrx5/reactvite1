@@ -3,7 +3,7 @@ function NoProject() {
 
     return (
       <>
-        <div>
+        <div className="pt-96">
           <h1>No Project</h1>
           <p>
             The Card you have clicked has no content yet unfortunately.

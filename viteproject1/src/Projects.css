@@ -1,18 +1,13 @@
-#root {
-    width: 75%;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-}
 .projects-grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
     gap: 40px;
+    padding: 0 15%;
 }
 .project-card{
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
+    border: 1px solid #121212;
+    border-radius: 25px;
+    width: 100%;
     opacity: 0;
     animation: fadeIn 0.5s ease-in-out forwards;
     transition: opacity 0.5s ease-in-out;
@@ -57,7 +52,6 @@
 .mw700 img{
     width: 100%;
 }
-
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -67,4 +61,10 @@
       opacity: 1;
       transform: translateY(0); /* Final position */
     }
-  }
+}
+
+@media screen and (max-width: 800px) {
+    .projects-grid{
+      padding: 0 5%;
+    }
+}

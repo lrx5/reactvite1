@@ -3,7 +3,7 @@ import '../ProjectsBlog.css';
 function CafEight() {
 
   return (
-    <div className='container-template'>
+    <div className='container-template pt-96'>
       <div className='mw700 pb'>
         <div>
           <h1>CafeEight</h1>
