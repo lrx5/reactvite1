@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import FooterLinks from './FooterLinks';
 import '../about.css'; // Import the CSS file for styling
 
 const About = () => {
@@ -27,14 +28,14 @@ const About = () => {
     <div className='fullpage about'>
       <div className="section">
         <h1 className='hidden'>Welcome!</h1>
-        <p className='hidden'>My real name is John, and I go by LRXS.<br />I'm a Computer Engineer graduate who likes a lot of things.<br />Web Dev, Game Dev, 3D Modeller.</p>
+        <p className='hidden'>My real name is John, and I go by LRXS.<br />I'm a Computer Engineer graduate who likes computer-based things.<br />Web Dev, Game Dev, 3D Modeller.</p>
         <img src={`src/assets/about/image v.png`} className='hidden down' alt="" />
         <div className='page-number'>
           <p>1/6</p>
         </div>
       </div>
       <div className="section">
-        <h2 className='hidden customrgb'>Remember that unused skills degrade over time</h2>
+        <h2 className='hidden customrgb'>Remember that unused tools degrade over time</h2>
         <div>
           <h3 className='hidden'>Current Skills</h3>
           <p className='hidden'>These are the things I study and frequently use up to this day.</p>
@@ -101,13 +102,16 @@ const About = () => {
           </div>
         </div>
         <div>
-          <p className='hidden mt-64'>UI Engineer | QA Analyst | Accessibility | DevOps | Product Models | Visualization | 3D Animation</p>
+          <p className='hidden mt-64'>UI Engineer | QA Analyst | Accessibility | DevOps | Product Models | Visualization | 3D Animation | ML | AI</p>
         </div>
         <div className='page-number'>
           <p>3/6</p>
         </div>
       </div>
-      <div className="section">
+      <div className="section relative">
+        <div className='svgbg hidden_nf'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 16 16"><path fill="currentColor" d="m15.81 10l-2.5-5H14a.5.5 0 0 0 0-1h-.79a6.04 6.04 0 0 0-4.198-1.95L9 2a1 1 0 0 0-2 0v.05a6.168 6.168 0 0 0-4.247 1.947L2 4a.5.5 0 0 0 0 1h.69l-2.5 5H0c0 1.1 1.34 2 3 2s3-.9 3-2h-.19L3.26 4.91a.525.525 0 0 0 .159-.148A4.842 4.842 0 0 1 6.994 3.06L7 14H6v1H4v1h8v-1h-2v-1H9V3.06a4.71 4.71 0 0 1 3.524 1.693a.519.519 0 0 0 .193.186L10.19 10H10c0 1.1 1.34 2 3 2s3-.9 3-2h-.19zM5 10H1l2-3.94zm6 0l2-3.94L15 10h-4z"/></svg>
+        </div>
         <h2 className='hidden'>MBTI</h2>
         <div className='mw700'>
         <table className="custom-table hidden">
@@ -129,7 +133,7 @@ const About = () => {
               <td><h3>F</h3></td>
               <td>
               <span className='cv-title'>Feeling</span><br />
-                My inner justice aims to keep everything balanced as far as my logical, moral compass will allow it. Whenever you mention something strong, I will remember.
+                My inner justice aims to keep everything balanced as far as my logical, moral compass will allow it. Say anything significant and I will remember.
               </td>
             </tr>
             <tr>
@@ -140,7 +144,6 @@ const About = () => {
                 </td>
             </tr>
         </table>
-        <p></p>
         </div>
         <div className='page-number'>
           <p>4/6</p>
@@ -187,10 +190,9 @@ const About = () => {
         </div>
       </div>
       <div className="section">
-        <h2 className='hidden'>Footer</h2>
-        <div className='mw700'>
-          <p className='hidden'>Put links here.</p>
-        </div>
+        <h2 className='hidden'>Got a gig for me?</h2>
+        <h3 className='hidden'>Contact Me</h3>
+        <FooterLinks />
         <div className='page-number'>
           <p>6/6</p>
         </div>

@@ -6,11 +6,11 @@ function Nav() {
     <>
       <nav>
         <div>
-          <a className="lrxs" href=""><p className="lrxs">LRXS</p></a>
+        <Link className='lrxs' to="/">LRXS</Link>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/About">About</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
+            <li><Link to="/" >Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       </nav>

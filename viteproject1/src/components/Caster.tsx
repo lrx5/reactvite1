@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 import Spline from '@splinetool/react-spline';
 
@@ -32,6 +34,37 @@ function Caster() {
           <p>I have received important feedbacks that the wheel's edges were not smooth enough, and the metal material on the wheel were far on the rough side. I learned to apply more subdivisions in the future and to be very meticulous in rendering the final outputs. Nevertheless, I am thankful for the company for giving me an opportunity to show my work. 😊</p>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'salad-kitchen'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'salad_t.jpg'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Salad Kitchen'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'king-tiger'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'kingtiger_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'King Tiger'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

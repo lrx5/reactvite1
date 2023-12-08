@@ -1,8 +1,9 @@
 .projects-grid{
+    padding-top: 32px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
     gap: 40px;
-    padding: 0 15%;
+    padding: 64px 15%;
 }
 .project-card{
     border: 1px solid #121212;

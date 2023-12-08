@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import '../ProjectsBlog.css';
+import FooterLinks from './FooterLinks';
 
 function Ingen() {
 
@@ -35,6 +37,37 @@ function Ingen() {
           <p>This is a tribute to Ingen. Thank you for all the good memories. ❤️ And, I remember that I forgot to redeem my points. Feels bad man.</p>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'karzhyn-website'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'karzhyn_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Karzhyn Website'}</h3>
+              <p>{'Bootstrap'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'friends-list-website'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'friendslistv_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Friends List Website'}</h3>
+              <p>{'Vanilla HTML'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

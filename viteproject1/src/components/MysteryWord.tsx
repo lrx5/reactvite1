@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 
 function MysteryWord() {
@@ -54,6 +56,37 @@ function MysteryWord() {
           <p>In the end, the whole project is functional but unoptimized. This is me diving into Unity without a robust programming background. But what's important is I have learned a lot in the development of this game. Thank you for reading this rather long post, and goodluck to your future projects! 😁</p>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'cafeight'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'cafeight_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'CafEight'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'rx7-fd'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'rx7_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'RX-7 Model'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

@@ -47,12 +47,81 @@
     text-decoration: none;
     color:#ccc;
 }
+/*Project-Card-Footer*/
+.project-card-footer{
+    width: 440px;
+    border: 1px solid #191a1d;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.project-card-footer div:first-child{
+    height: 300px;
+    overflow: hidden;
+}
+.project-card-footer div:nth-child(2){
+    padding: 20px;
+    background-color: #191a1d;
+    overflow: hidden;
+}
+.project-card-footer img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: transform 0.3s, filter 0.3s;
+}
+.project-card-footer img:hover{
+    transform: scale(1.1);
+    filter: none;
+}
+.project-card-footer h3, .project-card-footer p{
+    text-decoration: none;
+    color:#ccc;
+}
 .mw700 {
     max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+}
+.mw700c {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mw700cf {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+    margin-top: 64px;
+}
+.mw1200 {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.flexrcf{
+    margin: 64px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 .mw700 img{
     width: 100%;
@@ -201,6 +270,27 @@
     filter: blur(0);
     transform: translateX(0);
     transform: translateY(0);
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mt-64{
+    margin-top: 64px;
+}
+.mb-64{
+    margin-bottom: 40px;
+}
+.white-line{
+    margin-bottom: 32px;
+    height: 100px;
+    width: 1px;
+    background-color: white;
+}
+.mw700cf ul{
+    padding: 0;
+}
+.mw700cf li:hover img{
+    filter: invert(65%) sepia(17%) saturate(5132%) hue-rotate(181deg) brightness(92%) contrast(89%);
 }
 @media(prefers-reduced-motion){
     .hidden{

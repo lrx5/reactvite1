@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 
 function KingTiger() {
@@ -53,6 +55,37 @@ function KingTiger() {
           </video>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'start-up-themed-backgrounds'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'startup_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'"Start Up" Themed backgrounds'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'mystery-word'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'mw_t.jpg'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Mystery Word: Five Letters'}</h3>
+              <p>{'Unity'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

@@ -5,6 +5,7 @@ import ScrollToTop from './components/ScrollToTop.tsx';
 import Nav from './components/Nav.tsx';
 import HomePage from './components/HomePage.tsx';
 import About from './components/About.tsx';
+import Contact from './components/Contact.tsx';
 import KarzhynWebsite from './components/KarzhynWebsite.tsx';
 import FriendsList from './components/FriendsList.tsx';
 import Memory from './components/Memory.tsx';
@@ -29,6 +30,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/karzhyn-website" element={<KarzhynWebsite />} />
         <Route path="/friends-list-website" element={<FriendsList />} />
         <Route path="/create-with-clint-double-memory" element={<Memory />} />

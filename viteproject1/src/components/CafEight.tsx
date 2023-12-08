@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 
 function CafEight() {
@@ -49,6 +51,37 @@ function CafEight() {
           <img src={`src/assets/cafeight/cafeight_5.png`} alt="" />
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'rx7-fd'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'rx7_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'RX-7 Model'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'ingen'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'ingen_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Ingen'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 
 function Salad() {
@@ -38,6 +40,37 @@ function Salad() {
           <p>I really liked the final output where I included the blue to yellow gradient overlay. It looked really <i>cool.</i> To be honest, the vegetable and fruit models carried the whole scene, I don't think the final render would look good without them. I loved this simple wallpaper that I even made it my wallpaper at some point. Not to toot my own horn, but me winning the wallpaper contest is an icing on the cake. 🍰</p>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'king-tiger'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'kingtiger_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'King Tiger'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'start-up-themed-backgrounds'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'startup_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'"Start Up" Themed backgrounds'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

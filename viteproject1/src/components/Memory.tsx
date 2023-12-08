@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 
 function Memory() {
@@ -52,6 +54,37 @@ function Memory() {
           <p>This is my first submission to the server and I feel good about my work. Seeing other people's submissions were fun and got a good load of ideas and inspirations from them. Although, there are things that I need to improve on. One is the lighting, I have seen other works with Godlike lighting. It was hard for me to replicate that in my scene where it was closed and dark. Two is the materials, the materials that I made for the objects are not that high quality for close-up renders. I am getting there, I just need more time to polish up my lighting and materials even more. ✨</p>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'caster-wheel'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'casterwheel.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Caster Wheel'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'salad-kitchen'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'salad_t.jpg'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Salad Kitchen'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import FooterLinks from './FooterLinks';
 import '../ProjectsBlog.css';
 
 function FriendsList() {
@@ -64,6 +66,37 @@ function FriendsList() {
           <p>Even though the website is simple as it is, I really hope my friends liked it. It's a good start for me in applying my new web development skills. Who knows, I might remaster this someday in the future, you'll just have to find out. 🤗</p>
         </div>
       </div>
+      <div className='mw700c'>
+          <p className='mt-64'>Thank you for reading! 🙂<br />You may also like</p>
+          <div className='white-line'></div>
+      </div>
+      <div className='mw1200'>
+        <div className='flexrcf'>
+          <Link to={`/${'create-with-clint-double-memory'}`}>
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'memory_t.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Memory'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+          <Link to={`/${'caster-wheel'}`}>  
+          <div className="project-card-footer">
+            <div>
+              <img src={`src/assets/${'casterwheel.png'}`} alt="" />
+            </div>
+            <div>
+              <h3>{'Caster Wheel'}</h3>
+              <p>{'Blender'}</p>
+            </div>
+          </div>
+          </Link>
+        </div>
+      </div>
+      <FooterLinks />
     </div>
   )
 }
