@@ -155,7 +155,8 @@ const About = () => {
             <h4 className=''>Work Experiences</h4>
             <p className='cv-title'>Server Administrator Intern</p>
             <p className='cv-subtitle mb-20'>@Aureal, Manila | Oct 2022 - Dec 2022</p>
-            <p className='cv-body ms-40 mb-20'>Maintained the intern's Google Cloud VM security by using Google Cloud Shell. Provided access keys to fellow intern developers and documented the logs.</p>
+            <p className='cv-body ms-40 mb-20'>Installed VMs and set up Google Cloud. Maintained the intern's Google Cloud VM security by using Google Cloud Shell.</p>
+            <p className='cv-body ms-40 mb-20'>Provided access keys to fellow intern developers and documented log activity.</p>
             <p className='cv-title'>Mobile Developer Intern</p>
             <p className='cv-subtitle mb-20'>@Melham Construction Corporation, Manila | May 2022 - July 2022</p>
             <p className='cv-body ms-40 mb-20'>Created a mobile application including it's UI/UX Figma redesign & front-end functionalities with Android Studio.</p>
